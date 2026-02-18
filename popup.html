@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InspectraAI</title>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="prism.css">
+  <script src="prism.js"></script>
+</head>
+<body>
+
+  <h2>InspectraAI</h2>
+
+  <textarea id="codeArea" placeholder="Selected code will appear here..."></textarea>
+
+  <button id="expandBtn">Expand</button>
+  <button id="openEditor">Open Full Editor</button>
+
+  <button id="reviewBtn">Review with AI</button>
+  <button id="optimizeBtn">Optimize Code</button>
+
+  <div id="loader" style="display:none;">Loading...</div>
+
+  <div class="output-container">
+    <div id="originalBlock" class="code-block"></div>
+    <div id="optimizedBlock" class="code-block"></div>
+  </div>
+
+  <button id="copyBtn" style="display:none;">Copy Review</button>
+  <button id="downloadBtn" style="display:none;">Download Optimized</button>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
