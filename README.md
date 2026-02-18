@@ -157,21 +157,7 @@ Extension is now ready.
 
 ---
 
-## 📸 Screenshots
 
-Add screenshots in:
-
-```
-/screenshots/
-```
-
-Example:
-
-- full-editor.png
-- review-output.png
-- optimization-view.png
-
----
 
 ## 🎯 Use Cases
 
